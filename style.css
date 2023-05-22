@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+body {
+    background-color: rgba(221, 214, 246, 0.75);
+    user-select: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -21,12 +26,12 @@ img {
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .main-input {
     color: #4c4034;
-    background-color: #DCE1EB;
+    background-color: #eaedf1;
     margin: 1em 0;
 }
 
