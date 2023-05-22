@@ -14,3 +14,23 @@ img {
     width: 150px;
     margin: 0 auto;
 }
+
+.main-input, .add-button {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-input {
+    color: #4c4034;
+    background-color: #DCE1EB;
+    margin: 1em 0;
+}
+
+.add-button {
+    color: #4c4034;
+    background-color: rgb(239, 214, 218);
+}
