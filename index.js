@@ -38,3 +38,8 @@ function addItemToList(itemValue) {
 function clearListEl() {
     listEl.innerHTML = ""
 }
+
+// don't allow empty input field
+// maybe label is visible...
+// enter key functionality
+// ontouch?
