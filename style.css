@@ -36,9 +36,34 @@ img {
     margin: 1em 0;
 }
 
+.main-input:hover,
+.main-input:focus,
+.add-button:hover,
+.add-button:focus {
+    outline-style: none;
+    outline-color: transparent;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);;
+}
+
 .add-button {
     color: #4c4034;
     background-color: rgb(239, 214, 218);
+}
+
+.add-button:hover,
+.add-button:focus {
+    background-color: rgb(240, 191, 199);
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
 }
 
 .list-el {
