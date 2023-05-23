@@ -37,6 +37,14 @@ img {
     margin: 0.2em 0 1em;
 }
 
+.main-input::placeholder {
+    color:rgba(64, 59, 59, 0.2);
+}
+
+.main-input:focus::placeholder {
+    color: transparent;
+} 
+
 .main-input:hover,
 .main-input:focus,
 .add-button:hover,
